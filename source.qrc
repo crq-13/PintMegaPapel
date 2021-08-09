@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Icon">
+    <file>Media/Icons/Mega Logo.jpg</file>
+    <file>Media/Icons/apple-mail.png</file>
+    <file>Media/Icons/pen-drive.png</file>
+  </qresource>
+</RCC>
