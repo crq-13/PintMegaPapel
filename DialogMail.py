@@ -53,6 +53,7 @@ class Ui_Dialog(object):
         self.lineEdit = QtWidgets.QLineEdit(Dialog)
         self.lineEdit.setGeometry(QtCore.QRect(40, 200, 311, 21))
         self.lineEdit.setObjectName("lineEdit")
+        self.lineEdit.mousePressEvent = lambda _: self.lineEdit.selectAll()
         self.label_4 = QtWidgets.QLabel(Dialog)
         self.label_4.setGeometry(QtCore.QRect(190, 10, 191, 41))
         self.label_4.setText("")
