@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
 
 PDFJS = f"file:///pdf.js/web/viewer.html"
 # PDFJS = 'file:///usr/share/pdf.js/web/viewer.html'
-PDF = f'file:///Adjuntos/2021-08-17/CV-English-2021.pdf'
+PDF = f'file:///Adjuntos/2021-08-23/SAM.pdf'
 
 
 class Window(QtWebEngineWidgets.QWebEngineView):
